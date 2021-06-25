@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(140, 212, 58, 0.425);
+}
+
+nav {
+    position: sticky;
+}
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thumb {
+    flex-direction: flex-start;
+    justify-content: center;
+}
+
+.jumbotron {
+    font-family: 'Do Hyeon', sans-serif;
+}
+.sec1 {
+    justify-content: center;
+}
+section {
+    background-color: black;
+}
+
+    
+}
+.navlinks {
+    justify-content: flex-end;
+}
+
+footer {
+    background-image: url('../img/black.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 500px;
+    top: 100px;
+    text-align: center;
+    text-align: top;
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: rgb(112, 147, 192);
+    font-family: 'Overpass', sans-serif;
+}

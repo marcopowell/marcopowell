@@ -4,25 +4,176 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/c04036610c.js" crossorigin="anonymous"></script>
     <title>Marco Powell's Portfolio</title>
   </head>
-  <body>
-    <h1>Marco Powell's portfolio</h1>
+  <body style="background-color: black;">
+ 
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">MP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navlinks" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Training</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Projects</a>
+                <a class="dropdown-item" href="#">Contact Me</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+       <!-- Jumbotron -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <section class="sections">
+        <div class="container m-6">
+            <div class="jumbotron bg-cover text-center" style="background-image:  url('img/blue.jpeg'); background-size: cover;">
+                <div class="container">
+                <h1 class="display-5" style="color: rgba(230, 231, 221, 0.897)">Marco Powell</h1>
+                <p class="lead" style="color: white">Student and soon-to-be website developer</p>
+                <hr class="my-5">
+                <p style="color: white; margin-bottom: 30px;">Click below or scroll down to learn about my experience with web development</p>
+                <a class="btn btn-primary btn-sm" href="#" role="button">See Portfolio</a>
+            </div>
+        </div>
+    </section>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
+     <!-- container: about me -->
+
+    <section>
+        <div class="container sec1"> 
+            <h3 class= "text-center m-4">About Me</h3>
+            <div class="row">       
+                <div class="col-md-6 d-flex justify-content-around">
+                    <img src="../img/marco.jpg" class="rounded-circle" alt="Marco" width="330px' height=330px">
+                </div>
+                <div class="col-md-6">
+                    <h5 style="color: white;">My story</h5>
+                    <p style="color: white;">My name is Marco and I am currently a student at the Geekwise Academy. I am 27 years olf and live in the San Francisco Bay Area. I studied architecture in school, however, I spent most of my professional carreer working in the immigration law field. Now I am looking to start this new journey in the technology industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+       
+    <!-- container: training and skills-->
+
+   <section>
+    <div id="exp" class="container">
+        <h3 class= "text-center m-4"">Web Development Training</h3>
+        <p style="color: white;"> I started my jorney into website development in April of 2021. Between now and then I have learned different skills from how to create a basic website using just HTML to giving a website style and responsiveness by using CSS and implementing Bootstrap. </p>
+            <div class="card mb-3">
+                <div class="card body">
+                    <div style="background-color: rgba(22, 35, 150, 0.877);">
+                        <h4 style="margin-left: 2px; color: white";> Skills:</h4>
+                        <ul>
+                            <li style="color: white;">HTML</li>
+                            <li style="color: white;">CSS</li>
+                            <li style="color: white;">JavaScript</li>
+                            <li style="color: white;">React</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+    </div>   
+   </section> 
+  
+    <!-- container: Projects  -->
+
+   <section>
+    <div class="container mt-5">
+        <h3 class= "text-center m-4">Projects</h3>
+        <div class="row d-flex justify-content-center align-content-space-between ">
+            <div class="col-lg-3 ">
+                <div class="card m-b-3">
+                    <img src="img/wfb.jpg" alt="Mountain Biking Guide" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title>">Mountain Biking Guide</h5>
+                        <p class="card-text">A website dedicated to mountain bikers with the purpose to guide them around the best trails the San Francisco bay Area has to offer</p>
+                        <div class="btn btn-primary"> <a href style="text-decoration: none; color: white;"="http://127.0.0.1:5501/websitefinal/index.html">See Website</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card m-b-3">
+                    <img src="img/carousel2.jpg" alt="Mountain Biking Guide" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title>">Carousel with Controls</h5>
+                        <p class="card-text">A simple carousel with controls showcasing some of 2021's best trucks.</p>
+                        <div class="btn btn-primary">See Website</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+   </section>
+   <br>
+
+     <!-- container: Contact Me / Footer  -->
+
+   
+    <div class="container">
+        <div class="col-md-6 p-5 bg-black m-5 rounded d-flex justify-content-center align-content-space-between" style="background-color: black; color: white;">
+            <form>
+                <div class="form-group ">
+                    <label for="name">Your Name</label>   
+                    <input type="email" class="form-control" id="name">         
+                </div>
+                <div class="form-group">
+                    <label for="email">Your E-mail</label>   
+                    <input type="email" class="form-control" id="email">         
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>   
+                    <textarea type="email" class="form-control" id="message" rows="3"></textarea>         
+                </div>
+                <button class="btn btn-dark">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+        <br>
+    
+    <footer>
+        <div class="container d-flex justify-content-around icons" style="font-size: 2.5rem; padding: 20px; background-image: url(img/black.jpeg); background-size: cover; height: 400px">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-git-square"></i>
+            <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-code"></i>
+        </div>
+   </footer>
+
+
+
+
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
   </body>
 </html>
